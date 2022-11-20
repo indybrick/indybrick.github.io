@@ -3,11 +3,12 @@ import Selfie from '../assets/websitePhoto.png'
 import '../styles/Home.css'
 
 function Home() {
-    return ( < div className = 'home' >
+    return ( <
+        div className = 'home' >
         <
         div className = 'headerContainerLeft' >
         <
-        h1 > Indy Morrell < /h1> <
+        h1 > Indy Brick Morrell < /h1> <
         img src = { Selfie }
         /> <
         p > Software Engineer < /p> < /
