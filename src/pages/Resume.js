@@ -1,10 +1,10 @@
 import React from 'react'
 import Selfie from '../assets/websitePhoto.png'
-import '../styles/Projects.css'
+import '../styles/Resume.css'
 
-function Projects() {
+function Resume() {
   return (
-    <div className='projects'>
+    <div className='resume'>
         <div className='headerContainerLeft'>
           <h1>Indy Morrell</h1>
           <img src={Selfie}/>
@@ -12,11 +12,11 @@ function Projects() {
         </div>
         <div className='headerContainerRight'>
           <p className='introParagraph'>
-            Here are my projects
+            Here is my resume
           </p>
         </div>
     </div>
   )
 }
 
-export default Projects
+export default Resume
